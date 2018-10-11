@@ -4,7 +4,7 @@
 
 <form action="Conversion">
 <input type="text" name="no1">
-<input type="button" value="submit">
+<input type="submit" value="submit">
 </form>
 </body>
 </html>
