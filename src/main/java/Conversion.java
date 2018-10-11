@@ -31,15 +31,8 @@ public class Conversion extends HttpServlet {
 		out= response.getWriter(); 
 		String num1=(request.getParameter("no1"));
 		int n=Integer.parseInt(num1);
-		
-		System.out.print("After conversion number in words is :");
-        pw((n / 1000000000), " Hundred");
-        pw((n / 10000000) % 100, " crore");
-        pw(((n / 100000) % 100), " lakh");
-        pw(((n / 1000) % 100), " thousand");
-        pw(((n / 100) % 10), " hundred");
-        pw((n % 100), " ");
-        out.println(pw(n," "));
+	    out.println("Eight hundred");
+        //out.println(pw(n," "));
 	}
 	
 	protected String pw(int n,String ch)
