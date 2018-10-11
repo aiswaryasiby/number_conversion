@@ -31,8 +31,8 @@ public class Conversion extends HttpServlet {
 		out= response.getWriter(); 
 		String num1=(request.getParameter("no1"));
 		int n=Integer.parseInt(num1);
-	    out.println("Eight hundred");
-        //out.println(pw(n," "));
+	   // out.println("Eight hundred");
+        out.println(pw(n," "));
 	}
 	
 	protected String pw(int n,String ch)
